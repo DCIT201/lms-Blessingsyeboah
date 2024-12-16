@@ -1,5 +1,6 @@
-public class Book {
+package org.example;
 
-    // This is your working class.
+public record Book(String title, String author, int publicationYear) {
     
 }
+    
